@@ -1,0 +1,41 @@
+✅Domain : Library Management System
+
+✅Entities and Relationships
+Entities
+.Books
+.Authors
+.Members
+.Loans
+.Categories
+
+Relationships
+>A book can have one or more authors.
+>A book belongs to one category.
+>A member can borrow many books.
+>A loan is made by one member for one book.
+
+✅ Primary Keys (PK)
+AuthorID 
+CategoryID
+BookID
+MemberID
+
+🔁 Foreign Keys (FK)
+CategoryID 
+BookID
+AuthorID
+BookID
+MemberID 
+
+
+
+
+
+
+
+
+
+
+Refers to MemberID in Members.
+
+Indicates which member borrowed the book.
